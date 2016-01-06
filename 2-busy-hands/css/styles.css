@@ -39,9 +39,10 @@ body {
 	height: 100%;
 }
 
-nav, header, main {
+nav, header, main, section {
 	width: 800px;
 	margin: 0 auto;
+	overflow: auto;
 }
 
 nav a, nav a:hover {
@@ -62,7 +63,6 @@ nav a:hover {
 
 header {
 	margin-top: 9px;
-	overflow: auto;
 }
 
 header div {
@@ -170,6 +170,7 @@ main .imageshadow {
 	padding: 16px 18px 13px 17px;
 	background: url('../images/bg_blurg.jog') 0px 0px repeat-x;
 	overflow: auto;
+	margin-bottom: 30px;
 }
 
 #blurb span {
@@ -184,4 +185,45 @@ main .imageshadow {
 #blurb a {
 	display: inline-block;
 	float: right;
+}
+
+article {
+	width: 240px;
+	float: left;
+	margin-right: 34px;
+}
+
+article h1 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.home-box {
+	width: 240px;
+	padding: 1px;
+	border: 5px solid #e2e2e2;
+	margin-bottom: 15px;
+}
+
+article span {
+	display: block;
+	font-size: 11px;
+	color: #333;
+	width: 240px;
+	margin-bottom: 12px;
+}
+
+article a {
+	display: block;
+	margin-bottom: 18px;
+	font-size: 11px;
+	color: #36a1e7;
+	text-decoration: none;
+}
+	
+
+article:last-child {
+	margin-right: 0px;
 }
